@@ -1,6 +1,8 @@
-import { ItemsService } from './../../services/items.service';
+import { Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
 import { Item } from './../../models/item';
 import { Component, OnInit } from '@angular/core';
+import { AppState } from 'src/app/state';
 
 @Component({
   selector: 'app-cart-items',
@@ -9,14 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartItemsComponent implements OnInit {
 
-  // todo: mutualize?
   items: Item[];
+  count$: Observable<number>;
 
-  constructor(private itemsService: ItemsService) { }
+  constructor(
+    private store: Store<AppState>
+  ) { }
 
   ngOnInit() {
-    // todo: make async !!
-    this.items = this.itemsService.getItems();
+    this.count$ = this.store.select('selectedItems');
   }
 
 }

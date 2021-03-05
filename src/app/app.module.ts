@@ -1,3 +1,4 @@
+import { StateModule } from './state/state.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './imports/material.module';
@@ -22,7 +23,8 @@ import { UnescapePipe } from './pipes/unescape.pipe';
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    StateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

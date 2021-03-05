@@ -1,0 +1,13 @@
+<mat-card *ngIf="item" class="card">
+      <mat-card-title>{{item.title}}</mat-card-title>
+    <div style="height: 150px; overflow: hidden;">
+        <img class="image" mat-card-image [src]="item.imageUrl" alt="Photo of a cookie!">
+    </div>
+    <mat-card-content>
+      <div [innerHTML]="item.description | unescape" class="description">
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="add-button" mat-button>Ajouter</button>
+    </mat-card-actions>
+  </mat-card>

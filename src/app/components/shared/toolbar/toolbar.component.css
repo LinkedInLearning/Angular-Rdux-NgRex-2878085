@@ -1,0 +1,20 @@
+.big {
+  font-size: 2rem;
+}
+
+.big mat-icon {
+  font-size: 2rem;
+}
+
+.cart-title {
+  display: flex;
+  align-items: center;
+}
+
+.cart-title mat-icon {
+  margin-right: 0.5rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,14 @@
+<p>
+    <mat-toolbar [ngClass]="isCart ? '' : 'big'">
+      <!-- Do something better ! -->
+      <span class="cart-title" *ngIf="!isCart">WeLoveCats.com</span>
+      <div class="cart-title" *ngIf="isCart">
+        <mat-icon aria-hidden="false" aria-label="Shopping cart icon">shopping_cart</mat-icon>
+        <span>Panier</span>
+      </div>
+      <span class="spacer"></span>
+      <mat-icon aria-hidden="false" aria-label="Pet icon">pets</mat-icon>
+    </mat-toolbar>
+</p>
+
+

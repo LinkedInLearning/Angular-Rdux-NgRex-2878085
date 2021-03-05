@@ -1,0 +1,18 @@
+.card {
+  max-width: 150px;
+  margin: 10px;
+}
+
+.description {
+  padding-top: 1rem;
+  height: 2rem;
+}
+
+.add-button {
+  border: 1px solid white;
+}
+
+.image {
+  transform: translateY(-50%);
+  margin-top: 50% !important;
+}

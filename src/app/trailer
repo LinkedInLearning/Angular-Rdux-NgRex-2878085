@@ -1,0 +1,19 @@
+Bonjour,
+
+Vous avez envie de comprendre la notion de 'state management' dans une application Angular ? 
+Vous avez entendu parler de 'NgRx', et vous vous demandez pourquoi cette librairie est si populaire ? 
+Ou bien vous souhaitez passer vos développements Angular au niveau supérieur? 
+Dans tous les cas, vous êtes au bon endroit ! 
+
+En effet, aujourd'hui tout le monde parle de 'state management', de 'redux', de 'store', de 'reducers'... 
+et pour cause: la gestion d'un état est devenue un prérequis dans le développement d'applications front-end 
+complexes.
+
+Je m'appelle Elise Patrikainen, développeuse et formatrice LinkedIn Learning, et je vais vous accompagner 
+dans la découverte de NgRx, et plus largement du pattern redux.
+Dans ce cours, nous verrons les concepts clés du pattern redux, et leur implémentation par 
+la librairie NgRx. Nous alternerons donc largement entre théorie et pratique, avec, comme fil conducteur, 
+la mise en place d'un premier 'state management' dans une petite application que l'on développera ensemble. 
+Ainsi, à la fin de ce cours, vous saurez utiliser NgRx dans vos projets.
+
+Vous êtes prêts, alors allons-y ! 

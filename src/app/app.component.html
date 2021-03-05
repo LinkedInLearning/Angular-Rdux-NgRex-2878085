@@ -1,0 +1,15 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer-content>
+    <div>
+      <app-toolbar></app-toolbar>
+      <app-items></app-items>
+    </div>
+  </mat-drawer-content>
+  <mat-drawer #drawer mode="side" opened position="end">
+    <div style="width: 350px; padding: 20px;">
+      <!-- todo: close button -->
+      <app-toolbar isCart=true></app-toolbar>
+      <app-cart-items></app-cart-items>
+    </div>  
+  </mat-drawer>
+</mat-drawer-container>

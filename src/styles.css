@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mat-toolbar {
+    background: unset;
+    border-bottom: 1px solid white;
+}

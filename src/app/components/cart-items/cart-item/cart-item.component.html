@@ -1,0 +1,9 @@
+<mat-card *ngIf="item" class="card">
+    <div style="display: flex;">
+        <img style="height: 50px; width: 50px; border-radius: 50%; overflow: hidden;" [src]="item.imageUrl" alt="Photo of a cookie!">
+        <mat-card-header>
+            <mat-card-title>{{item.title}}</mat-card-title>
+        </mat-card-header>
+        <button mat-button>Add to card</button>
+    </div>
+</mat-card>

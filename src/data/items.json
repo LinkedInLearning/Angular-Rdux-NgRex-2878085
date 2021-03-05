@@ -25,7 +25,7 @@
     },
     {
         "id": 5,
-        "title": "Chat 5",
+        "title": "Chat 4",
         "price": 3,
         "imageUrl": "assets/catX.PNG",
         "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://www.instagram.com/za.za1573/&quot;&gt;G. Patrikainen&lt;/a&gt; on &lt;a href=&quot;https://www.instagram.com/p/CIL2DtFDu3r/&quot;&gt;Instagram&lt;/a&gt; 🔥&lt;/span&gt;",
@@ -33,7 +33,7 @@
     },
     {
         "id": 4,
-        "title": "Chat 4",
+        "title": "Chat 5",
         "price": 3,
         "imageUrl": "assets/cat9.jpg",
         "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jwimmerli?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;jean wimmerlin&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat-sleeping?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
@@ -41,7 +41,7 @@
     },
     {
         "id": 12,
-        "title": "Chat 12",
+        "title": "Chat 6",
         "price": 3,
         "imageUrl": "assets/cat6.jpg",
         "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jacalynbeales?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jacalyn Beales&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat-sleeping?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
@@ -49,7 +49,7 @@
     },
     {
         "id": 11,
-        "title": "Chat 11",
+        "title": "Chat 7",
         "price": 3,
         "imageUrl": "assets/cat12.jpg",
         "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@charliefirth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charlie Firth&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/lucky-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",

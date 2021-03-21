@@ -1,5 +1,10 @@
+import { itemsLoaded } from './../../state/items/items.actions';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { Item } from './../../models/item';
 import { ItemsService } from './../../services/items.service';
 import { Component, OnInit } from '@angular/core';
+import { AppState } from 'src/app/state';
 
 @Component({
   selector: 'app-items',
@@ -8,13 +13,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItemsComponent implements OnInit {
 
-  items: any[];
+  items: Observable<Item[]>;
 
-  constructor(private itemsService: ItemsService) { }
+  constructor(
+    private itemsService: ItemsService,
+    private store: Store<AppState>) { }
 
   ngOnInit() {
-    // todo: make async !!
-    this.items = this.itemsService.getItems();
+    this.items = this.store.select('items');
+    this.itemsService.getItems().subscribe(
+      (items) => this.store.dispatch(itemsLoaded({items}))
+    );
   }
 
 }

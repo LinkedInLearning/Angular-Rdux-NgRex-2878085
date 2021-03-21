@@ -1,4 +1,5 @@
 import * as fromSelectedItems from './selected-items/selected-items.reducer';
+import * as fromItems from './items/items.reducer';
 
 export interface AppState {
     items: any;
@@ -7,7 +8,7 @@ export interface AppState {
 }
 
 export const reducers = {
-    items: () => {},
-    filters: () => {},
-    selectedItems: fromSelectedItems.selectedItemsReducer
+    items: fromItems.itemsReducer,
+    selectedItems: fromSelectedItems.selectedItemsReducer,
+    filters: () => {}
 };

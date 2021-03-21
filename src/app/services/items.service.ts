@@ -1,16 +1,18 @@
-import { Injectable } from '@angular/core';
-import * as items from '../../data/items.json';
+import { Item } from './../models/item';
+import { Injectable } from '@angular/core';
+// @ts-ignore
+import * as items from '../../data/items.json';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root'
 })
-export class ItemsService {
+export class ItemsService {
 
-  constructor() { }
+  constructor() {}
 
-  getItems() {
-    // todo: make async
-    // @ts-ignore
-    return items.default
-  }
+  getItems(): Observable<Item[]> {
+    // @ts-ignore
+    return of(items.default);
+  }
 }

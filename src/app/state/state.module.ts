@@ -1,4 +1,6 @@
-import { environment } from './../../environments/environment.prod';
+import { ItemsEffects } from './items/items.effects';
+import { EffectsModule } from '@ngrx/effects';
+import { environment } from '../../environments/environment.prod';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';
@@ -12,6 +14,9 @@ import { reducers } from '.';
   imports: [
     CommonModule,
     StoreModule.forRoot(reducers),
+    EffectsModule.forRoot([
+      ItemsEffects
+    ]),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,

@@ -12,7 +12,7 @@ import { AppState } from 'src/app/state';
 export class CartItemsComponent implements OnInit {
 
   items: Item[];
-  count$: Observable<number>;
+  count$: Observable<number[]>;
 
   constructor(
     private store: Store<AppState>

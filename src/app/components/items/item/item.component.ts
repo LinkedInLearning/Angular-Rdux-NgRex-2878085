@@ -1,6 +1,6 @@
 import { itemSelected } from 'src/app/state/selected-items/selected-items.actions';
 import { Store } from '@ngrx/store';
-import { Item } from './../../../models/item';
+import { Item } from '../../../models/item';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -17,7 +17,7 @@ export class ItemComponent {
   ) { }
 
   selectItem() {
-    this.store.dispatch(itemSelected());
+    this.store.dispatch(itemSelected({id: this.item.id}));
   }
 
 }

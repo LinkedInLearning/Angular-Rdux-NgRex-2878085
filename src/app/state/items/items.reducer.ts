@@ -2,13 +2,17 @@ import { Item } from './../../models/item';
 import { itemsLoaded } from './items.actions';
 import { createReducer, on, Action } from '@ngrx/store';
 
-export type ItemsState = Item[];
+export interface ItemsState {
+    cats: Item[];
+}
 
-const initialState = [];
+const initialState: ItemsState = {
+    cats: []
+};
 
 const reducer = createReducer(
     initialState,
-    on(itemsLoaded, (state, {items}) => items)
+    on(itemsLoaded, (state, {items}) => ({cats: items}))
 );
 
 // Export compilation pre-Ivy

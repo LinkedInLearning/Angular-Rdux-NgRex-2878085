@@ -1,9 +1,15 @@
-import { createReducer, on } from '@ngrx/store';
+import { createReducer, on, Action } from '@ngrx/store';
 import { itemSelected } from './selected-items.actions';
+
+export type SelectedItemsState = number[];
 
 const initialState = [];
 
-export const selectedItemsReducer = createReducer(
+const reducer = createReducer(
     initialState,
     on(itemSelected, (state, {id}) => state.concat(id))
 );
+
+export function selectedItemsReducer(state: SelectedItemsState | undefined, action: Action) {
+    return reducer(state, action);
+}

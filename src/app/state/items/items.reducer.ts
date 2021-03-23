@@ -1,9 +1,16 @@
+import { Item } from './../../models/item';
 import { itemsLoaded } from './items.actions';
-import { createReducer, on } from '@ngrx/store';
+import { createReducer, on, Action } from '@ngrx/store';
+
+export type ItemsState = Item[];
 
 const initialState = [];
 
-export const itemsReducer = createReducer(
+const reducer = createReducer(
     initialState,
     on(itemsLoaded, (state, {items}) => items)
 );
+
+export function itemsReducer(state: ItemsState | undefined, action: Action) {
+    return reducer(state, action);
+}

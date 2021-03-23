@@ -1,6 +1,6 @@
 import { ItemsEffects } from './items/items.effects';
 import { EffectsModule } from '@ngrx/effects';
-import { environment } from '../../environments/environment.prod';
+import { environment } from '../../environments/environment';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';

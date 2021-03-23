@@ -11,6 +11,7 @@ const reducer = createReducer(
     on(itemsLoaded, (state, {items}) => items)
 );
 
+// Export compilation pre-Ivy
 export function itemsReducer(state: ItemsState | undefined, action: Action) {
     return reducer(state, action);
 }

@@ -10,6 +10,7 @@ const reducer = createReducer(
     on(itemSelected, (state, {id}) => state.concat(id))
 );
 
+// Export compilation pre-Ivy
 export function selectedItemsReducer(state: SelectedItemsState | undefined, action: Action) {
     return reducer(state, action);
 }

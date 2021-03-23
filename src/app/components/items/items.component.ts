@@ -1,4 +1,4 @@
-import { itemsLoaded } from './../../state/items/items.actions';
+import { LoadItems } from './../../state/items/items.actions';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Item } from './../../models/item';
@@ -21,9 +21,7 @@ export class ItemsComponent implements OnInit {
 
   ngOnInit() {
     this.items = this.store.select('items');
-    this.itemsService.getItems().subscribe(
-      (items) => this.store.dispatch(itemsLoaded({items}))
-    );
+    this.store.dispatch(LoadItems());   // ATTENTION : erreur dans la vidéo 😓 😓 😓 - ceci est la bonne version
   }
 
 }

@@ -1,10 +1,11 @@
+
 import * as fromSelectedItems from './selected-items/selected-items.reducer';
 import * as fromItems from './items/items.reducer';
 
 export interface AppState {
-    items: any;
+    items: fromItems.ItemsState;
+    selectedItems: fromSelectedItems.SelectedItemsState;
     filters: any;
-    selectedItems: number[];
 }
 
 export const reducers = {

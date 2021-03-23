@@ -11,5 +11,5 @@ export interface AppState {
 export const reducers = {
     items: fromItems.itemsReducer,
     selectedItems: fromSelectedItems.selectedItemsReducer,
-    filters: () => {}
+    // filters: () => {} - commenté pour compilation pre-Ivy
 };

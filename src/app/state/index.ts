@@ -1,3 +1,4 @@
+import { createSelector } from '@ngrx/store';
 
 import * as fromSelectedItems from './selected-items/selected-items.reducer';
 import * as fromItems from './items/items.reducer';
@@ -13,3 +14,8 @@ export const reducers = {
     selectedItems: fromSelectedItems.selectedItemsReducer,
     // filters: () => {} - commenté pour compilation pre-Ivy
 };
+
+export const catsSelector = createSelector(
+    (state: AppState) => state.items,
+    (itemsState) => itemsState.cats
+);

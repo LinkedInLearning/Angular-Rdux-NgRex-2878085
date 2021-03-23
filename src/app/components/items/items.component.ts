@@ -1,4 +1,4 @@
-import { map } from 'rxjs/operators';
+import { catsSelector } from './../../state/index';
 import { LoadItems } from './../../state/items/items.actions';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -21,10 +21,7 @@ export class ItemsComponent implements OnInit {
     private store: Store<AppState>) { }
 
   ngOnInit() {
-    this.items = this.store.select('items')
-      .pipe(
-        map(items => items.cats)
-      );
+    this.items = this.store.select(catsSelector);
     this.store.dispatch(LoadItems());   // ATTENTION : erreur dans la vidéo 😓 😓 😓 - ceci est la bonne version
   }
 

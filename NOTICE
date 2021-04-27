@@ -5,9 +5,22 @@ Licensed under the LinkedIn Learning Exercise File License (the "License").
 See LICENSE in the project root for license information.
 
 ATTRIBUTIONS:
+
 Angular
 https://github.com/angular/angular
 Copyright (c) 2010-2021 Google LLC. https://angular.io/license
+License: MIT
+https://opensource.org/licenses/MIT
+
+Redux
+https://github.com/reduxjs/redux
+Copyright (c) 2015-present Dan Abramov
+License: MIT
+https://opensource.org/licenses/MIT
+
+NgRx
+https://github.com/ngrx/platform
+Copyright (c) 2017 Brandon Roberts, Mike Ryan, Victor Savkin, Rob Wormald
 License: MIT
 https://opensource.org/licenses/MIT
 

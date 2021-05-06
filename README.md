@@ -1,4 +1,4 @@
-Ce dossier Repository est lié au cours Gérer les états d'application avec Redux et NgRx. Le cours est accessible sur LinkedIn Learning. 
+Ce dossier Repository est lié au cours Gérer les états d'application avec Redux et NgRx. Le cours est accessible sur [LinkedIn Learning][lil-course-url].
 
 Grâce à cette formation d'Élise Patrikainen, vous apprendrez à gérer les états d'application des bibliothèques open source JavaScript avec Redux et NgRx. Après avoir abordé les notions de base des états et les limites des solutions sans pattern, vous mettrez en place votre store ainsi que les outils de débogage, puis vous créerez des reducers, vous dispatcherez des actions et vous procéderez à l'abonnement de composants. En outre, au fur et à mesure des exemples concrets de cette formation vous verrez les notions d'immutabilité, de profondeur, d'effets et de sélecteurs.
 
@@ -22,3 +22,5 @@ La branche master correspond au code à la fin de la formation.
     Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 
     [Course-specific instructions] 
+    
+[lil-course-url]: https://www.linkedin.com/learning/angular-gerer-les-etats-d-application-avec-redux-et-ngrx

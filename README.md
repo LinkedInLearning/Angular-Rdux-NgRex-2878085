@@ -26,4 +26,4 @@ La branche master correspond au code à la fin de la formation.
     [Course-specific instructions] 
     
 [lil-course-url]: https://www.linkedin.com/learning/angular-gerer-les-etats-d-application-avec-redux-et-ngrx
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4E0DAQFMKoyHFyOF7g/learning-public-crop_675_1200/0/1611162920105?e=1646964000&v=beta&t=mv0C84XB6PgD3sX6X9R6C0QIn7vgfuBzzk6sgLZTtRk
+[tn-url]: https://cdn.lynda.com/course/2878085/2878085-1627915509482-16x9.jpg

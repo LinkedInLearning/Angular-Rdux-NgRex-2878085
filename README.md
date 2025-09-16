@@ -1,3 +1,5 @@
+## Gérer les états d'application avec Redux et NgR
+
 Ce dossier Repository est lié au cours <b>Gérer les états d'application avec Redux et NgRx</b>. Le cours est accessible sur [LinkedIn Learning][lil-course-url].
 
 ![tn-url]

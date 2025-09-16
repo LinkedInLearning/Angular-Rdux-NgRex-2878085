@@ -1,4 +1,4 @@
-Ce dossier Repository est lié au cours Gérer les états d'application avec Redux et NgRx. Le cours est accessible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours <b>Gérer les états d'application avec Redux et NgRx</b>. Le cours est accessible sur [LinkedIn Learning][lil-course-url].
 
 ![tn-url]
 
